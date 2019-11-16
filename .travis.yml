@@ -8,7 +8,7 @@ install:
 - npm install
 before_script: 
 script:
-- npm generate
+- npm run generate
 branches:
   only:
   - master
